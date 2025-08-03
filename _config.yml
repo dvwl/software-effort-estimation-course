@@ -1,5 +1,9 @@
 remote_theme: just-the-docs/just-the-docs
 
+# Site settings
+title: "Software Effort Estimation Course"
+description: "Master software project estimation with practical techniques and real-world examples"
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
