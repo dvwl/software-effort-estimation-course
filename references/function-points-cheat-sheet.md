@@ -1,3 +1,10 @@
+---
+layout: default
+title: Function Points Cheat Sheet
+parent: References
+nav_order: 2
+---
+
 # Function Points Cheat Sheet
 
 Quick reference for Function Point Analysis (FPA) including counting rules, complexity assessment, and calculations.

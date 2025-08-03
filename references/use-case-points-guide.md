@@ -1,3 +1,10 @@
+---
+layout: default
+title: Use Case Points Guide
+parent: References
+nav_order: 6
+---
+
 # Use Case Points (UCP) Guide
 
 ## Overview

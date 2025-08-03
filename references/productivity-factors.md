@@ -1,3 +1,10 @@
+---
+layout: default
+title: Team Productivity Factors
+parent: References
+nav_order: 7
+---
+
 # Team Productivity Factors
 
 ## Overview

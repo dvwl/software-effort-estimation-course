@@ -1,3 +1,10 @@
+---
+layout: default
+title: Three-Point Estimation Guide
+parent: References
+nav_order: 3
+---
+
 # Three-Point Estimation Guide
 
 ## Overview

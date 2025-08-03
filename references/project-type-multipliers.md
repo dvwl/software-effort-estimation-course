@@ -1,3 +1,10 @@
+---
+layout: default
+title: Project Type Multipliers
+parent: References
+nav_order: 10
+---
+
 # Project Type Multipliers
 
 ## Overview

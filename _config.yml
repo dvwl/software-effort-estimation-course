@@ -1,17 +1,12 @@
 remote_theme: just-the-docs/just-the-docs
-plugins:
-- jekyll-remote-theme
-# Software Effort Estimation Course
-title: "Software Effort Estimation Course"
-description: "PC2544 - Technical Training for Software Development Teams"
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
 
 # Jekyll plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
 
@@ -42,13 +37,9 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - demos/
-  skin: auto
-title: Software Effort Estimation Course (PC2544)
-description: Hands-on exercises and materials for the Software Effort Estimation course by DreamCatcher Consulting Sdn Bhd - Learn techniques for accurate project estimation in software development.
-author: Ts. Daniel Vong
-github_username: dvwl
 
 # Just the Docs specific settings
+skin: auto
 search_enabled: true
 heading_anchors: true
 nav_sort: case_insensitive
@@ -57,6 +48,12 @@ back_to_top_text: "Back to top"
 
 # Color scheme
 color_scheme: light
+
+# Site metadata
+title: "Software Effort Estimation Course (PC2544)"
+description: "Hands-on exercises and materials for the Software Effort Estimation course by DreamCatcher Consulting Sdn Bhd - Learn techniques for accurate project estimation in software development."
+author: "Ts. Daniel Vong"
+github_username: dvwl
 
 # Footer content
 footer_content: "Copyright &copy; 2025 Daniel Vong. Distributed by an <a href=\"https://github.com/dvwl/software-effort-estimation-course/tree/main/LICENSE\">MIT license.</a>"

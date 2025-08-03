@@ -1,3 +1,10 @@
+---
+layout: default
+title: Technology Comparison for Development Speed
+parent: References
+nav_order: 9
+---
+
 # Technology Comparison for Development Speed
 
 ## Overview

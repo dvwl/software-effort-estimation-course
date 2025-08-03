@@ -1,3 +1,10 @@
+---
+layout: default
+title: Risk Factors Assessment Guide
+parent: References
+nav_order: 5
+---
+
 # Risk Factors Assessment Guide
 
 ## Overview

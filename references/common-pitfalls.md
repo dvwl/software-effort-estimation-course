@@ -1,3 +1,10 @@
+---
+layout: default
+title: Common Estimation Pitfalls
+parent: References
+nav_order: 4
+---
+
 # Common Estimation Pitfalls
 
 ## Overview

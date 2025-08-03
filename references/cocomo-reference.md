@@ -1,3 +1,10 @@
+---
+layout: default
+title: COCOMO Quick Reference
+parent: References
+nav_order: 1
+---
+
 # COCOMO Quick Reference
 
 Comprehensive reference for the Constructive Cost Model (COCOMO) family of estimation models.

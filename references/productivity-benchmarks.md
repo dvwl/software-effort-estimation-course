@@ -1,3 +1,10 @@
+---
+layout: default
+title: Productivity Benchmarks
+parent: References
+nav_order: 8
+---
+
 # Productivity Benchmarks
 
 Industry-standard productivity rates for software development estimation.
