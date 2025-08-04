@@ -13,7 +13,6 @@ nav_order: 2
 **Duration**: 18 months (estimated 15 months)  
 **Team Size**: 6 developers, 2 QA, 1 DevOps, 1 UI/UX designer, 1 Security, 1 blockchain expert, 1 PM, 4 co-founders 
 **Technology**: React, Node.js, Golang (backend), MySQL, AWS, Docker, Microservices  
-{: .label-blue }
 
 <details open markdown="block">
   <summary>

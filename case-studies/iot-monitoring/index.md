@@ -13,7 +13,6 @@ nav_order: 3
 **Duration**: 15 months (estimated 12 months)  
 **Team Size**: 2 developers, 2 embedded engineers, 1 QA, 1 DevOps, 1 PM  
 **Technology**: C++, ASP .NET, MySQL, Docker, Azure IoT  
-{: .label-purple }
 
 <details open markdown="block">
   <summary>

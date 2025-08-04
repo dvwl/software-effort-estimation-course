@@ -13,7 +13,6 @@ nav_order: 1
 **Duration**: 7 months (initial estimate: 5 months)  
 **Team Size**: 3 developers (mix of senior and junior), 1 QA, 1 DevOps, 1 PM (total: 6) 
 **Technology**: ASP.NET Core, Microsoft SQL, Azure  
-{: .label-green }
 
 <details open markdown="block">
   <summary>
