@@ -27,7 +27,7 @@ Master the art and science of software project estimation with practical techniq
   
   <div class="grid-item">
     <h3><a href="case-studies/">📊 Case Studies</a></h3>
-    <p>Real-world examples from C#, Python, and Go projects</p>
+    <p>Real-world examples from C# and Go projects</p>
   </div>
   
   <div class="grid-item">
@@ -36,7 +36,7 @@ Master the art and science of software project estimation with practical techniq
   </div>
   
   <div class="grid-item">
-    <h3><a href="demos/">💻 Demo Projects</a></h3>
+    <h3><a href="demos/">💻 Demo Project</a></h3>
     <p>Sample applications demonstrating estimation techniques</p>
   </div>
 </div>

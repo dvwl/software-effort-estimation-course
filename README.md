@@ -72,7 +72,7 @@ This repository contains course materials, exercises, and resources for the **So
 │   └── module4/        # Testing estimation, scheduling
 ├── case-studies/       # Real-world estimation scenarios
 ├── tools/              # Excel templates and calculators
-├── demos/              # Sample applications (C#, Python)
+├── demos/              # Sample applications (C#)
 ├── references/         # Quick guides and checklists
 └── docs/               # Additional documentation
 ```
@@ -100,10 +100,9 @@ Software development team members who need to provide effort/cost estimations fo
 
 ## 📖 Additional Resources
 
-- [Estimation Best Practices Guide](./references/best-practices.md)
-- [Common Pitfalls Checklist](./references/pitfalls-checklist.md)
-- [Industry Benchmarks](./references/benchmarks.md)
-- [Recommended Reading](./references/reading-list.md)
+- [Estimation Checklist](./references/estimation-checklist.md)
+- [Common Pitfalls Checklist](./references/common-pitfalls.md)
+- [Industry Benchmarks](./references/productivity-benchmarks.md)
 
 ## 🤝 Contributing
 
