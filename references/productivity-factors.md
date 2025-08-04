@@ -15,6 +15,7 @@ Understanding factors that influence development team productivity is essential 
 ### 1. Team Experience and Skills
 
 #### Programming Language Experience
+
 | Experience Level | Productivity Factor | Description |
 |------------------|-------------------|-------------|
 | **Expert (5+ years)** | 1.3 - 1.5 | Deep language knowledge, best practices |
@@ -24,6 +25,7 @@ Understanding factors that influence development team productivity is essential 
 | **Beginner (<1 month)** | 0.4 - 0.7 | Significant learning required |
 
 #### Domain Knowledge
+
 | Domain Familiarity | Factor | Impact Areas |
 |-------------------|--------|--------------|
 | **Expert in domain** | 1.4 | Requirements understanding, design decisions |
@@ -33,6 +35,7 @@ Understanding factors that influence development team productivity is essential 
 | **No domain experience** | 0.6 | Significant learning curve |
 
 #### Technology Stack Familiarity
+
 | Component | Expert | Experienced | Novice | Impact |
 |-----------|--------|-------------|--------|--------|
 | **Framework** | 1.3 | 1.1 | 0.7 | Architecture, patterns |
@@ -43,6 +46,7 @@ Understanding factors that influence development team productivity is essential 
 ### 2. Team Composition and Dynamics
 
 #### Team Size Effects (Brooks' Law Considerations)
+
 | Team Size | Communication Overhead | Productivity Factor |
 |-----------|----------------------|-------------------|
 | **1-2 people** | Minimal | 1.0 |
@@ -52,6 +56,7 @@ Understanding factors that influence development team productivity is essential 
 | **13+ people** | Very High | 0.6 - 0.8 |
 
 #### Team Stability
+
 | Stability Level | Factor | Description |
 |----------------|--------|-------------|
 | **Stable team (6+ months together)** | 1.2 | Established communication, known strengths |
@@ -61,6 +66,7 @@ Understanding factors that influence development team productivity is essential 
 | **High turnover** | 0.6 | Significant disruption, training overhead |
 
 #### Skill Distribution
+
 | Distribution Pattern | Factor | Characteristics |
 |---------------------|--------|-----------------|
 | **Balanced skills** | 1.1 | Even distribution of senior/junior |
@@ -71,6 +77,7 @@ Understanding factors that influence development team productivity is essential 
 ### 3. Project Characteristics
 
 #### Project Complexity
+
 | Complexity Level | Factor | Indicators |
 |-----------------|--------|------------|
 | **Simple** | 1.1 | CRUD operations, standard patterns |
@@ -79,6 +86,7 @@ Understanding factors that influence development team productivity is essential 
 | **Very Complex** | 0.6 | Research required, cutting-edge technology |
 
 #### Requirements Clarity
+
 | Clarity Level | Factor | Impact |
 |--------------|--------|--------|
 | **Crystal clear** | 1.2 | Minimal clarification needed |
@@ -88,6 +96,7 @@ Understanding factors that influence development team productivity is essential 
 | **Unclear** | 0.6 | Significant rework expected |
 
 #### Change Frequency
+
 | Change Rate | Factor | Description |
 |-------------|--------|-------------|
 | **Stable requirements** | 1.1 | <5% scope change |
@@ -98,6 +107,7 @@ Understanding factors that influence development team productivity is essential 
 ### 4. Development Environment
 
 #### Tool Quality
+
 | Tool Category | Poor (0.8) | Average (1.0) | Excellent (1.2) |
 |---------------|------------|---------------|-----------------|
 | **IDE/Editor** | Basic text editor | Standard IDE | Advanced IDE with plugins |
@@ -106,6 +116,7 @@ Understanding factors that influence development team productivity is essential 
 | **Testing Tools** | Manual testing | Unit test framework | Comprehensive test suite |
 
 #### Infrastructure Quality
+
 | Factor | Poor | Average | Excellent |
 |--------|------|---------|-----------|
 | **Development Environment** | 0.8 | 1.0 | 1.1 |
@@ -116,6 +127,7 @@ Understanding factors that influence development team productivity is essential 
 ### 5. Process and Methodology
 
 #### Development Methodology
+
 | Methodology | Factor | Characteristics |
 |-------------|--------|-----------------|
 | **Agile (well-implemented)** | 1.1 | Short feedback loops, adaptive |
@@ -124,6 +136,7 @@ Understanding factors that influence development team productivity is essential 
 | **Ad-hoc** | 0.8 | No consistent process |
 
 #### Code Quality Practices
+
 | Practice | Factor | Impact |
 |----------|--------|--------|
 | **Code reviews** | 1.1 | Higher quality, knowledge sharing |
@@ -136,6 +149,7 @@ Understanding factors that influence development team productivity is essential 
 ### 6. Communication and Collaboration
 
 #### Team Co-location
+
 | Setup | Factor | Communication Quality |
 |-------|--------|----------------------|
 | **Same room** | 1.1 | Immediate communication |
@@ -145,6 +159,7 @@ Understanding factors that influence development team productivity is essential 
 | **Different timezones** | 0.8 | Delayed communication, handoff issues |
 
 #### Stakeholder Availability
+
 | Availability | Factor | Impact |
 |-------------|--------|--------|
 | **Highly available** | 1.1 | Quick decision making |
@@ -155,6 +170,7 @@ Understanding factors that influence development team productivity is essential 
 ### 7. Motivation and Morale
 
 #### Project Interest Level
+
 | Interest Level | Factor | Indicators |
 |---------------|--------|------------|
 | **High engagement** | 1.2 | Passionate about project goals |
@@ -163,6 +179,7 @@ Understanding factors that influence development team productivity is essential 
 | **Actively disengaged** | 0.6 | Resistance, minimal effort |
 
 #### Work Environment
+
 | Factor | Poor (0.8) | Average (1.0) | Excellent (1.2) |
 |--------|------------|---------------|-----------------|
 | **Physical workspace** | Cramped, noisy | Standard office | Comfortable, quiet |
@@ -194,7 +211,8 @@ Overall Factor = Factor1 × Factor2 × Factor3 × ... × FactorN
 
 ## Industry Benchmarks
 
-### Productivity by Industry
+### Productivity by 
+
 | Industry | Lines of Code/Person-Day | Factors |
 |----------|-------------------------|---------|
 | **Web Development** | 50-100 | Rapid frameworks, libraries |
@@ -204,6 +222,7 @@ Overall Factor = Factor1 × Factor2 × Factor3 × ... × FactorN
 | **Game Development** | 20-40 | Creative, performance-focused |
 
 ### Productivity by Project Type
+
 | Project Type | Relative Productivity | Characteristics |
 |--------------|---------------------|-----------------|
 | **Greenfield** | 1.0 | New development, clean slate |

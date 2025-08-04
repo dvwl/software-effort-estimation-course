@@ -15,6 +15,7 @@ Different types of software projects have inherent characteristics that affect e
 ### 1. Business Applications
 
 #### Enterprise Resource Planning (ERP)
+
 | Complexity | Multiplier | Characteristics |
 |------------|------------|-----------------|
 | **Simple** | 1.2 | Basic CRUD, standard workflows |
@@ -23,6 +24,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Enterprise** | 2.5 | Global deployment, compliance |
 
 #### Customer Relationship Management (CRM)
+
 | Scope | Multiplier | Features |
 |-------|------------|----------|
 | **Basic CRM** | 1.1 | Contact management, basic reporting |
@@ -31,6 +33,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Enterprise CRM** | 2.0 | Customization, integrations, AI |
 
 #### Content Management Systems (CMS)
+
 | Type | Multiplier | Complexity Factors |
 |------|------------|-------------------|
 | **Simple CMS** | 1.0 | Basic content editing |
@@ -41,6 +44,7 @@ Different types of software projects have inherent characteristics that affect e
 ### 2. E-commerce Platforms
 
 #### Online Stores
+
 | Features | Multiplier | Requirements |
 |----------|------------|--------------|
 | **Basic Store** | 1.2 | Product catalog, cart, checkout |
@@ -49,6 +53,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Enterprise Commerce** | 2.8 | B2B, global, omnichannel |
 
 #### Marketplace Platforms
+
 | Complexity | Multiplier | Stakeholders |
 |------------|------------|--------------|
 | **Simple Marketplace** | 1.8 | Basic vendor management |
@@ -58,6 +63,7 @@ Different types of software projects have inherent characteristics that affect e
 ### 3. Financial Applications
 
 #### Banking Systems
+
 | Type | Multiplier | Regulatory Requirements |
 |------|------------|------------------------|
 | **Personal Banking** | 2.0 | KYC, transaction security |
@@ -66,6 +72,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Core Banking** | 4.0 | Mission-critical, 24/7 uptime |
 
 #### Payment Processing
+
 | Scope | Multiplier | Security Requirements |
 |-------|------------|---------------------|
 | **Basic Payments** | 1.8 | PCI compliance, encryption |
@@ -73,6 +80,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Enterprise Payments** | 2.8 | Fraud detection, reporting |
 
 #### Insurance Systems
+
 | Complexity | Multiplier | Domain Knowledge Required |
 |------------|------------|--------------------------|
 | **Claims Processing** | 2.2 | Business rules, workflows |
@@ -82,6 +90,7 @@ Different types of software projects have inherent characteristics that affect e
 ### 4. Healthcare Applications
 
 #### Electronic Health Records (EHR)
+
 | Scope | Multiplier | Compliance Requirements |
 |-------|------------|------------------------|
 | **Basic EHR** | 2.0 | HIPAA, data security |
@@ -89,6 +98,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Enterprise EHR** | 3.5 | Multi-facility, research |
 
 #### Medical Devices Software
+
 | Criticality | Multiplier | Validation Requirements |
 |-------------|------------|------------------------|
 | **Non-critical** | 1.8 | Basic medical standards |
@@ -97,6 +107,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Life-critical** | 4.0 | Extreme validation, safety |
 
 #### Telemedicine Platforms
+
 | Features | Multiplier | Compliance |
 |----------|------------|------------|
 | **Basic Telehealth** | 1.6 | Video calls, basic records |
@@ -106,6 +117,7 @@ Different types of software projects have inherent characteristics that affect e
 ### 5. Government and Public Sector
 
 #### Citizen Services
+
 | Scope | Multiplier | Requirements |
 |-------|------------|--------------|
 | **Information Portal** | 1.3 | Public information, forms |
@@ -113,6 +125,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Integrated Services** | 2.5 | Multi-agency, single sign-on |
 
 #### Regulatory Compliance Systems
+
 | Domain | Multiplier | Complexity Factors |
 |--------|------------|-------------------|
 | **Tax Processing** | 2.8 | Complex calculations, auditing |
@@ -122,6 +135,7 @@ Different types of software projects have inherent characteristics that affect e
 ### 6. Education Technology
 
 #### Learning Management Systems (LMS)
+
 | Type | Multiplier | Features |
 |------|------------|----------|
 | **Basic LMS** | 1.4 | Course delivery, assessments |
@@ -129,6 +143,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Enterprise LMS** | 2.2 | Integration, certification |
 
 #### Educational Games
+
 | Complexity | Multiplier | Development Challenges |
 |------------|------------|----------------------|
 | **Simple Educational Games** | 1.6 | Game mechanics, learning objectives |
@@ -137,6 +152,7 @@ Different types of software projects have inherent characteristics that affect e
 ### 7. Media and Entertainment
 
 #### Content Delivery Platforms
+
 | Type | Multiplier | Technical Challenges |
 |------|------------|---------------------|
 | **Basic Streaming** | 1.8 | Video delivery, user management |
@@ -144,6 +160,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Global Platform** | 2.8 | CDN, multi-region, DRM |
 
 #### Gaming Platforms
+
 | Complexity | Multiplier | Development Areas |
 |------------|------------|-------------------|
 | **Casual Games** | 1.4 | Simple mechanics, mobile |
@@ -154,6 +171,7 @@ Different types of software projects have inherent characteristics that affect e
 ### 8. IoT and Embedded Systems
 
 #### IoT Platforms
+
 | Scope | Multiplier | Integration Complexity |
 |-------|------------|----------------------|
 | **Simple IoT** | 1.6 | Basic device connectivity |
@@ -161,6 +179,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Industrial IoT** | 2.8 | Real-time, safety-critical |
 
 #### Embedded Software
+
 | Criticality | Multiplier | Constraints |
 |-------------|------------|-------------|
 | **Consumer Electronics** | 1.4 | Resource constraints, user interface |
@@ -171,6 +190,7 @@ Different types of software projects have inherent characteristics that affect e
 ## Integration Complexity Multipliers
 
 ### System Integration Types
+
 | Integration Type | Multiplier | Complexity Factors |
 |------------------|------------|-------------------|
 | **API Integration** | 1.2 | Standard REST/GraphQL APIs |
@@ -180,6 +200,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Enterprise Integration** | 2.5 | Multiple systems, orchestration |
 
 ### Number of Integrations
+
 | Integration Count | Multiplier | Management Overhead |
 |------------------|------------|-------------------|
 | **1-3 integrations** | 1.1 | Minimal coordination |
@@ -190,6 +211,7 @@ Different types of software projects have inherent characteristics that affect e
 ## User Experience Complexity
 
 ### UI/UX Requirements
+
 | Complexity Level | Multiplier | Design Requirements |
 |------------------|------------|-------------------|
 | **Basic UI** | 1.0 | Standard components, simple layout |
@@ -198,6 +220,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Cutting-edge UX** | 2.0 | Complex animations, micro-interactions |
 
 ### Multi-platform Requirements
+
 | Platform Coverage | Multiplier | Development Approach |
 |------------------|------------|---------------------|
 | **Single Platform** | 1.0 | Native development |
@@ -208,6 +231,7 @@ Different types of software projects have inherent characteristics that affect e
 ## Performance and Scalability
 
 ### Performance Requirements
+
 | Performance Level | Multiplier | Optimization Needs |
 |------------------|------------|-------------------|
 | **Standard** | 1.0 | Basic optimization |
@@ -216,6 +240,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Extreme Performance** | 2.5 | Custom algorithms, hardware optimization |
 
 ### Scalability Requirements
+
 | Scale | Multiplier | Architecture Complexity |
 |-------|------------|----------------------|
 | **Small Scale** | 1.0 | Simple deployment |
@@ -226,6 +251,7 @@ Different types of software projects have inherent characteristics that affect e
 ## Security Requirements
 
 ### Security Levels
+
 | Security Level | Multiplier | Requirements |
 |---------------|------------|--------------|
 | **Basic Security** | 1.1 | Standard authentication, HTTPS |
@@ -234,6 +260,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Maximum Security** | 2.0 | Government standards, certification |
 
 ### Compliance Requirements
+
 | Compliance Type | Multiplier | Additional Overhead |
 |----------------|------------|-------------------|
 | **GDPR** | 1.2 | Data protection, privacy |
@@ -245,6 +272,7 @@ Different types of software projects have inherent characteristics that affect e
 ## Geographic and Localization
 
 ### Geographic Scope
+
 | Scope | Multiplier | Localization Needs |
 |-------|------------|-------------------|
 | **Single Country** | 1.0 | Local language, currency |
@@ -253,6 +281,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Worldwide** | 1.8 | All regions, comprehensive localization |
 
 ### Language Support
+
 | Languages | Multiplier | Translation Overhead |
 |-----------|------------|-------------------|
 | **Single Language** | 1.0 | Base development |
@@ -263,6 +292,7 @@ Different types of software projects have inherent characteristics that affect e
 ## Team and Organizational Factors
 
 ### Team Distribution
+
 | Distribution | Multiplier | Communication Overhead |
 |-------------|------------|----------------------|
 | **Co-located** | 1.0 | Minimal overhead |
@@ -272,6 +302,7 @@ Different types of software projects have inherent characteristics that affect e
 | **Global Team** | 1.6 | Significant coordination |
 
 ### Vendor Relationships
+
 | Vendor Involvement | Multiplier | Management Complexity |
 |-------------------|------------|---------------------|
 | **Internal Team** | 1.0 | Direct control |

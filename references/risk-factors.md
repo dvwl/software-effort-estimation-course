@@ -15,6 +15,7 @@ Comprehensive guide for identifying, assessing, and quantifying risk factors tha
 ### 1. Technical Risks
 
 #### Technology Complexity
+
 | Risk Factor | Low (1.0) | Medium (1.2) | High (1.5) | Very High (2.0) |
 |-------------|-----------|--------------|------------|-----------------|
 | **New Technology** | Mature, well-known | Some new components | Significant new tech | Cutting-edge/experimental |
@@ -23,6 +24,7 @@ Comprehensive guide for identifying, assessing, and quantifying risk factors tha
 | **Security Requirements** | Basic security | Standard encryption | High security needs | Military/financial grade |
 
 #### Technical Debt Impact
+
 | Factor | Low Risk | Medium Risk | High Risk | Critical Risk |
 |--------|----------|-------------|-----------|---------------|
 | **Code Quality** | Clean, documented | Some tech debt | Significant debt | Legacy nightmare |
@@ -32,6 +34,7 @@ Comprehensive guide for identifying, assessing, and quantifying risk factors tha
 ### 2. Project Risks
 
 #### Requirements Clarity
+
 | Risk Factor | Low (1.0) | Medium (1.2) | High (1.5) | Very High (2.0) |
 |-------------|-----------|--------------|------------|-----------------|
 | **Requirement Stability** | Frozen scope | Minor changes expected | Moderate changes | Major scope evolution |
@@ -39,6 +42,7 @@ Comprehensive guide for identifying, assessing, and quantifying risk factors tha
 | **Requirement Quality** | Detailed, clear | Mostly complete | Some ambiguity | Vague/incomplete |
 
 #### Project Complexity
+
 | Factor | Multiplier | Description |
 |--------|------------|-------------|
 | **Project Size** | 1.0-1.8 | Lines of code, function points |
@@ -49,6 +53,7 @@ Comprehensive guide for identifying, assessing, and quantifying risk factors tha
 ### 3. Team Risks
 
 #### Team Experience
+
 | Experience Level | Application Domain | Technology Stack | Team Collaboration |
 |------------------|-------------------|------------------|-------------------|
 | **Expert** | 0.8 | 0.8 | 0.9 |
@@ -58,6 +63,7 @@ Comprehensive guide for identifying, assessing, and quantifying risk factors tha
 | **No Experience** | 1.5 | 1.8 | 1.4 |
 
 #### Team Stability
+
 | Factor | Low Risk (0.9) | Medium Risk (1.0) | High Risk (1.3) |
 |--------|----------------|-------------------|-----------------|
 | **Turnover Rate** | <5% annually | 5-15% annually | >15% annually |
@@ -67,6 +73,7 @@ Comprehensive guide for identifying, assessing, and quantifying risk factors tha
 ### 4. Organizational Risks
 
 #### Process Maturity
+
 | Maturity Level | Description | Risk Multiplier |
 |----------------|-------------|-----------------|
 | **Optimized** | Continuous improvement, metrics-driven | 0.8 |
@@ -76,6 +83,7 @@ Comprehensive guide for identifying, assessing, and quantifying risk factors tha
 | **Initial** | Ad-hoc, chaotic processes | 1.5 |
 
 #### Communication Risks
+
 | Factor | Low (0.9) | Medium (1.0) | High (1.3) | Very High (1.6) |
 |--------|-----------|--------------|------------|-----------------|
 | **Stakeholder Alignment** | Clear consensus | Minor disagreements | Conflicting priorities | Active opposition |
@@ -85,6 +93,7 @@ Comprehensive guide for identifying, assessing, and quantifying risk factors tha
 ### 5. External Risks
 
 #### Dependencies
+
 | Dependency Type | Low Risk (1.0) | Medium Risk (1.2) | High Risk (1.5) |
 |-----------------|----------------|-------------------|-----------------|
 | **Third-party Components** | Mature, reliable | Some concerns | Unproven/unreliable |
@@ -92,6 +101,7 @@ Comprehensive guide for identifying, assessing, and quantifying risk factors tha
 | **Vendor Relationships** | Strong partnership | Standard relationship | Poor/uncertain |
 
 #### Market/Business Risks
+
 | Factor | Impact Multiplier |
 |--------|-------------------|
 | **Regulatory Changes** | 1.0 - 1.4 |
@@ -108,6 +118,7 @@ Use structured brainstorming:
 - Use risk checklists and templates
 
 ### Step 2: Assess Probability and Impact
+
 | Probability | Description | Value |
 |-------------|-------------|-------|
 | Very Low | <10% chance | 0.1 |
@@ -150,6 +161,7 @@ Expected Effort = Base Estimate × Π(Risk Multipliers)
 ```
 
 ### Confidence Interval Approach
+
 | Confidence Level | Contingency |
 |------------------|-------------|
 | 50% (median) | 0-10% |
@@ -201,6 +213,7 @@ Set thresholds for:
 ## Risk-Adjusted Estimation Template
 
 ### Project Risk Assessment Summary
+
 | Risk Category | Count | Avg Multiplier | Combined Effect |
 |---------------|-------|----------------|-----------------|
 | Technical | 5 | 1.3 | 1.3 |

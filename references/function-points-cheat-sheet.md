@@ -22,6 +22,7 @@ Quick reference for Function Point Analysis (FPA) including counting rules, comp
 - File upload
 
 **Complexity Assessment**:
+
 | Complexity | Data Elements | File Types | Complexity Points |
 |------------|---------------|------------|-------------------|
 | **Low** | 1-4 | 0-1 | 3 |
@@ -39,6 +40,7 @@ Quick reference for Function Point Analysis (FPA) including counting rules, comp
 - Export files
 
 **Complexity Assessment**:
+
 | Complexity | Data Elements | File Types | Complexity Points |
 |------------|---------------|------------|-------------------|
 | **Low** | 1-5 | 0-1 | 4 |
@@ -56,6 +58,7 @@ Quick reference for Function Point Analysis (FPA) including counting rules, comp
 - Help system queries
 
 **Complexity Assessment**:
+
 | Complexity | Data Elements | File Types | Complexity Points |
 |------------|---------------|------------|-------------------|
 | **Low** | 1-5 | 0-1 | 3 |
@@ -73,6 +76,7 @@ Quick reference for Function Point Analysis (FPA) including counting rules, comp
 - Configuration settings
 
 **Complexity Assessment**:
+
 | Complexity | Record Types | Data Elements | Complexity Points |
 |------------|--------------|---------------|-------------------|
 | **Low** | 1 | 1-19 | 7 |
@@ -90,6 +94,7 @@ Quick reference for Function Point Analysis (FPA) including counting rules, comp
 - Partner inventory systems
 
 **Complexity Assessment**:
+
 | Complexity | Record Types | Data Elements | Complexity Points |
 |------------|--------------|---------------|-------------------|
 | **Low** | 1 | 1-19 | 5 |

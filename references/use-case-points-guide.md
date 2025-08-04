@@ -15,6 +15,7 @@ Use Case Points is a software estimation technique that calculates project effor
 ### Step 1: Count Unadjusted Use Case Points (UUCP)
 
 #### Use Case Complexity Classification
+
 | Type | Description | Weight |
 |------|-------------|--------|
 | **Simple** | 1-3 transactions | 5 |
@@ -22,6 +23,7 @@ Use Case Points is a software estimation technique that calculates project effor
 | **Complex** | 8+ transactions | 15 |
 
 #### Actor Complexity Classification
+
 | Type | Description | Weight |
 |------|-------------|--------|
 | **Simple** | System interface (API) | 1 |
@@ -36,6 +38,7 @@ UUCP = (Use Case Points) + (Actor Points)
 ### Step 2: Apply Technical Complexity Factor (TCF)
 
 #### Technical Factors
+
 | Factor | Description | Weight | Rating (0-5) |
 |--------|-------------|--------|--------------|
 | T1 | Distributed system | 2 | |
@@ -61,6 +64,7 @@ TCF = 0.6 + (0.01 × TFactor)
 ### Step 3: Apply Environmental Complexity Factor (ECF)
 
 #### Environmental Factors
+
 | Factor | Description | Weight | Rating (0-5) |
 |--------|-------------|--------|--------------|
 | E1 | Familiar with development process | 1.5 | |
@@ -89,6 +93,7 @@ Person-Hours = UCP × Productivity Factor
 ```
 
 #### Productivity Factor Guidelines
+
 | Project Type | Hours per UCP |
 |--------------|---------------|
 | Simple project | 20 |

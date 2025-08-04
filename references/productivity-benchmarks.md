@@ -12,6 +12,7 @@ Industry-standard productivity rates for software development estimation.
 ## Lines of Code (LOC) Productivity
 
 ### By Programming Language
+
 | Language | LOC per Person-Month | Notes |
 |----------|---------------------|-------|
 | **Assembly** | 200-500 | Very low level, high complexity |
@@ -25,6 +26,7 @@ Industry-standard productivity rates for software development estimation.
 | **Visual Basic** | 2,000-3,500 | RAD environment |
 
 ### By Application Type
+
 | Application Type | LOC per Person-Month | Factors |
 |------------------|---------------------|---------|
 | **System Software** | 500-1,500 | Complex algorithms, optimization |
@@ -38,6 +40,7 @@ Industry-standard productivity rates for software development estimation.
 ## Function Points Productivity
 
 ### By Project Type
+
 | Project Type | FP per Person-Month | Range |
 |--------------|-------------------|-------|
 | **Business Applications** | 8-15 | High productivity |
@@ -48,6 +51,7 @@ Industry-standard productivity rates for software development estimation.
 | **Mobile Applications** | 5-12 | Platform learning curve |
 
 ### By Development Approach
+
 | Approach | FP per Person-Month | Notes |
 |----------|-------------------|-------|
 | **New Development** | 6-12 | Full development lifecycle |
@@ -58,6 +62,7 @@ Industry-standard productivity rates for software development estimation.
 ## Team Experience Multipliers
 
 ### Programming Experience
+
 | Experience Level | Multiplier | Description |
 |------------------|------------|-------------|
 | **Very Low** | 0.5x | < 1 year in language |
@@ -67,6 +72,7 @@ Industry-standard productivity rates for software development estimation.
 | **Very High** | 1.6x | > 12 years expert level |
 
 ### Application Domain
+
 | Domain Experience | Multiplier | Description |
 |-------------------|------------|-------------|
 | **Very Low** | 0.6x | New domain for team |
@@ -76,6 +82,7 @@ Industry-standard productivity rates for software development estimation.
 | **Very High** | 1.4x | Industry authority |
 
 ### Platform Experience
+
 | Platform Experience | Multiplier | Description |
 |---------------------|------------|-------------|
 | **Very Low** | 0.7x | First project on platform |
@@ -87,6 +94,7 @@ Industry-standard productivity rates for software development estimation.
 ## Quality and Process Factors
 
 ### Development Process Maturity
+
 | Process Level | Multiplier | Characteristics |
 |---------------|------------|-----------------|
 | **Ad-hoc** | 0.7x | No formal process |
@@ -96,6 +104,7 @@ Industry-standard productivity rates for software development estimation.
 | **Optimizing** | 1.3x | Continuous improvement |
 
 ### Quality Requirements
+
 | Quality Level | Multiplier | Testing Overhead |
 |---------------|------------|------------------|
 | **Low** | 0.9x | Basic testing |
@@ -107,6 +116,7 @@ Industry-standard productivity rates for software development estimation.
 ## Technology Productivity Factors
 
 ### Development Environment
+
 | Environment | Multiplier | Description |
 |-------------|------------|-------------|
 | **Basic IDE** | 0.9x | Simple text editors |
@@ -115,6 +125,7 @@ Industry-standard productivity rates for software development estimation.
 | **RAD Tools** | 1.3x | Low-code platforms |
 
 ### Framework Usage
+
 | Framework Type | Multiplier | Examples |
 |----------------|------------|----------|
 | **No Framework** | 0.8x | Ground-up development |
@@ -125,6 +136,7 @@ Industry-standard productivity rates for software development estimation.
 ## Industry Benchmarks by Sector
 
 ### By Industry Vertical
+
 | Industry | Productivity | Quality Requirements |
 |----------|--------------|---------------------|
 | **Financial Services** | 0.8-1.0x | High security, reliability |
@@ -135,6 +147,7 @@ Industry-standard productivity rates for software development estimation.
 | **Startups** | 1.2-1.5x | Rapid prototyping |
 
 ### By Organization Size
+
 | Organization Size | Multiplier | Overhead Factors |
 |-------------------|------------|------------------|
 | **Startup (< 50)** | 1.2x | Low overhead, high autonomy |
