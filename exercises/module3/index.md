@@ -8,7 +8,7 @@ nav_order: 3
 # Module 3: Development Effort and Cost Estimation
 {: .no_toc }
 
-**Duration**: 60 minutes (01:30pm - 02:30pm)
+**Duration**: 105 minutes (01:30pm - 03:15pm)
 {: .label .label-blue }
 
 This module focuses on converting size estimates into effort and cost projections using established models and techniques.

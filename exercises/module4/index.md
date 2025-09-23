@@ -8,10 +8,10 @@ nav_order: 4
 # Module 4: Testing and Schedule Estimation
 {: .no_toc }
 
-**Duration**: 55 minutes (02:35pm - 03:30pm)
+**Duration**: 50 minutes (03:20pm - 04:10pm)
 {: .label .label-blue }
 
-This final module focuses on estimating testing effort and creating realistic project schedules.
+This module focuses on estimating testing effort and creating realistic project schedules.
 
 <details open markdown="block">
   <summary>
