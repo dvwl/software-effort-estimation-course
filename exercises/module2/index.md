@@ -141,7 +141,9 @@ Rate similarity to new project (1-10 scale):
 ### Task 2: Calculate Analogical Estimates (20 minutes)
 
 #### Method 1: Most Similar Project
+
 **Selected**: ________________
+
 **Direct scaling**: _____ PM × (40 KLOC / _____ KLOC) = _____ PM
 
 #### Method 2: Weighted Average (Top 3)
