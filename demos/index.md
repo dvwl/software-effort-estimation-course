@@ -1,19 +1,14 @@
 ---
 layout: default
-title: Gantt Chart App (C#)
-parent: Demo Projects
-nav_order: 1
+title: Demo Projects
+nav_order: 4
+has_children: true
 ---
 
-# Project Estimation & Gantt Chart Web App (C#)
+# Demo Projects
 {: .no_toc }
 
-An ASP.NET Core web application demonstrating project task management, three-point estimation, and automated Mermaid Gantt chart generation.
-
-**Technology Stack**: .NET 8, Entity Framework, SQLite, Mermaid.js  
-**Estimated Effort**: 80 hours (2 weeks)  
-**Complexity**: Medium  
-{: .label .label-blue }
+Hands-on demonstrations that bring software effort estimation concepts to life through practical implementations.
 
 <details open markdown="block">
   <summary>
@@ -26,115 +21,82 @@ An ASP.NET Core web application demonstrating project task management, three-poi
 
 ---
 
-## Project Overview
+## Overview
 
-This demo web application showcases practical implementation of project estimation and task management concepts covered in the course. It includes:
+This section contains interactive demos that complement the theoretical concepts covered in the course modules. Each demo is designed to provide practical, hands-on experience with different estimation techniques and tools.
 
-- CRUD operations for project tasks
-- Three-point estimation (optimistic, pessimistic, most likely) with PERT calculations
+## Available Demos
+
+### Module 2: Analogy-Based Estimation Demo
+**Technology**: Python, Jupyter Notebook, scikit-learn  
+**Location**: `demos/AnalogyDemo/`  
+**Complexity**: Beginner  
+{: .label .label-green }
+
+Interactive Jupyter notebook demonstrating analogy-based estimation using machine learning similarity metrics. Learn how to:
+- Use historical project data for estimation
+- Calculate project similarity using Euclidean distance
+- Apply k-nearest neighbors for estimation
+- Experiment with different project parameters
+
+**Key Learning Outcomes:**
+- Understanding similarity-based estimation
+- Hands-on experience with Python data analysis
+- Practical application of machine learning concepts
+- Interactive experimentation with estimation parameters
+
+[**Open Analogy Demo →**](AnalogyDemo/)
+
+---
+
+### Module 3: Project Estimation & Gantt Chart App
+**Technology**: ASP.NET Core, C#, Entity Framework, Mermaid.js  
+**Location**: `demos/ProjectEstimator/`  
+**Complexity**: Intermediate  
+{: .label .label-blue }
+
+Full-featured web application demonstrating comprehensive project management and estimation techniques. Features include:
+- Three-point estimation with PERT calculations
 - Task dependency management
-- Automated Mermaid Gantt chart generation and visualization
-- Critical path identification
-- Project timeline visualization
+- Automated Gantt chart generation
+- Critical path analysis
+- Interactive project timeline visualization
 
-### Key Features
+**Key Learning Outcomes:**
+- Three-point estimation implementation
+- Task dependency modeling
+- Critical path analysis
+- Web-based project management tools
+- Integration of estimation with project scheduling
 
-- **Task Management**: Create, edit, update, and delete project tasks
-- **Estimation Tools**: Built-in three-point estimation with confidence intervals
-- **Dependency Tracking**: Define task relationships and prerequisites
-- **Mermaid Integration**: Auto-generate Mermaid Gantt charts from task data
-- **Visual Timeline**: Interactive web-based Gantt chart viewer
-- **Responsive Design**: Works on desktop and mobile devices
-
----
-
-## Estimation Breakdown
-
-### Functional Requirements Analysis
-
-| Feature Area | Function Points | Complexity | Estimated Hours |
-|--------------|----------------|------------|-----------------|
-| Task CRUD Operations | 6 | Medium | 16 |
-| Three-Point Estimation | 3 | Low | 8 |
-| Task Dependencies | 4 | Medium | 12 |
-| Mermaid Chart Generation | 5 | Medium | 16 |
-| Web UI (Razor Pages) | 8 | Medium | 20 |
-| Data Persistence (EF Core) | 3 | Low | 8 |
-| **Total** | **29** | | **80** |
-
-### Application Architecture
-
-```
-ProjectEstimator/
-├── Controllers/
-│   ├── HomeController.cs
-│   ├── TasksController.cs
-│   └── ProjectsController.cs
-├── Models/
-│   ├── Project.cs
-│   ├── ProjectTask.cs
-│   └── ViewModels/
-├── Views/
-│   ├── Tasks/
-│   ├── Projects/
-│   └── Shared/
-├── Services/
-│   ├── EstimationService.cs
-│   └── MermaidService.cs
-├── Data/
-│   └── ApplicationDbContext.cs
-└── wwwroot/
-    ├── js/
-    └── css/
-```
-
-### Key Technologies Used
-
-- **ASP.NET Core 8**: Web framework
-- **Entity Framework Core**: Data access with SQLite
-- **Mermaid.js**: Gantt chart generation and visualization
-- **Bootstrap 5**: Responsive UI framework
-- **Chart.js**: Additional data visualization
+[**Open ProjectEstimator App →**](ProjectEstimator/)
 
 ---
 
-## Application Features
-
-### Task Management
-- **Create Tasks**: Add new tasks with name, description, and estimates
-- **Edit Tasks**: Update task details, estimates, and dependencies
-- **Delete Tasks**: Remove tasks and automatically update dependencies
-- **List View**: Display all tasks with their key information
-
-### Three-Point Estimation
-- **PERT Calculation**: Automatic calculation of expected duration using (O + 4M + P) / 6
-- **Standard Deviation**: Calculate uncertainty using (P - O) / 6
-- **Confidence Intervals**: Display 68% and 95% confidence ranges
-- **Estimation Summary**: Project-level aggregation of estimates
-
-### Task Dependencies
-- **Prerequisite Tasks**: Define which tasks must complete before others can start
-- **Dependency Validation**: Prevent circular dependencies
-- **Critical Path**: Identify tasks that directly impact project completion date
-- **Visual Dependencies**: Show task relationships in Mermaid charts
-
-### Mermaid Chart Generation
-- **Auto-Generation**: Create Mermaid Gantt chart syntax from task data
-- **Live Preview**: Real-time chart rendering using Mermaid.js
-- **Export Options**: Copy Mermaid syntax for use in documentation
-- **Responsive Viewer**: Charts scale appropriately on different screen sizes
-
----
-
-## Setup Instructions
+## Getting Started
 
 ### Prerequisites
-- Visual Studio Code
+Choose the demo that matches your learning goals and technical background:
+
+**For Python/Data Science learners (Analogy Demo):**
+- Python 3.7+ installed
+- Jupyter Notebook or VS Code with Python extension
+- Basic familiarity with Python and pandas
+
+**For Web Development learners (ProjectEstimator):**
 - .NET 8.0 SDK
-- C# Extension for VS Code
+- Visual Studio Code or Visual Studio
+- Basic understanding of web development concepts
 
-### Installation Steps
+### Setup Instructions
 
+#### Analogy Demo Setup
+1. Navigate to `demos/AnalogyDemo/`
+2. Open `analogy_demo.ipynb` in Jupyter Notebook or VS Code
+3. Run the package installation cell: `!pip install scikit-learn`
+4. Execute cells sequentially to see the demo in action
+
+#### ProjectEstimator App Setup
 1. **Navigate to Demo Directory**
    ```bash
    cd demos/ProjectEstimator
@@ -158,7 +120,7 @@ ProjectEstimator/
 5. **Open in Browser**
    Navigate to `http://localhost:5000`
 
-### Development in VS Code
+#### Development in VS Code
 1. Open the `demos/ProjectEstimator` folder in VS Code
 2. Press `F5` to start debugging
 3. The application will open in your default browser
@@ -166,103 +128,33 @@ ProjectEstimator/
 
 ---
 
-## Estimation Analysis
+## Demo Progression
 
-### Original Estimates vs. Actual
+The demos are designed to build upon each other, progressing from simple estimation concepts to more complex project management implementations:
 
-| Phase | Estimated Hours | Notes |
-|-------|-----------------|-------|
-| Project Setup & Configuration | 4 | ASP.NET Core project template, NuGet packages |
-| Data Models & Entity Framework | 8 | ProjectTask, Project models with EF Core setup |
-| CRUD Controllers & Views | 20 | Tasks and Projects controllers with Razor views |
-| Three-Point Estimation Service | 8 | PERT calculations and confidence intervals |
-| Mermaid Chart Generation | 16 | Service to generate Mermaid syntax from tasks |
-| UI/UX with Bootstrap | 16 | Responsive design and user interface |
-| Testing & Debugging | 8 | Unit tests and integration testing |
-| **Total** | **80** | Focused scope for educational demo |
-
-### Key Insights for Web Applications
-
-**Advantages of Web vs Desktop:**
-- Cross-platform compatibility (Windows, Mac, Linux)
-- No installation required - runs in browser
-- Easy sharing and collaboration
-- Simpler deployment and updates
-- Better integration with online tools (Mermaid, etc.)
-
-**Estimation Considerations:**
-- Web UI development often faster with modern frameworks
-- Database integration straightforward with EF Core
-- Client-side JavaScript adds complexity but provides better UX
-- Testing across browsers requires additional effort
+### Learning Path
+1. **Start with Analogy Demo** (Module 2) - Learn fundamental estimation concepts
+2. **Progress to ProjectEstimator** (Module 3) - Apply concepts in a real application
+3. **Experiment and Extend** - Use the provided exercises to explore further
 
 ---
 
-## Learning Objectives Demonstrated
+## Extension Opportunities
 
-### Three-Point Estimation
-- **PERT Formula**: Implementation of (O + 4M + P) / 6 calculation
-- **Confidence Intervals**: 68% and 95% probability ranges
-- **Project Aggregation**: Sum of individual task estimates with combined uncertainty
+Both demos provide opportunities for further exploration:
 
-### Task Dependencies
-- **Prerequisite Management**: Tasks that must complete before others can start
-- **Dependency Validation**: Prevention of circular dependencies in the system
-- **Critical Path Identification**: Automated detection of tasks that impact project completion
+### Analogy Demo Extensions
+- Add more sophisticated similarity metrics
+- Implement cross-validation for model evaluation
+- Experiment with different machine learning algorithms
+- Create visualizations of project similarity patterns
 
-### Mermaid Integration
-- **Chart Generation**: Automatic creation of Mermaid Gantt chart syntax
-- **Live Visualization**: Real-time rendering of charts as tasks are modified
-- **Export Capability**: Copy generated Mermaid code for use in documentation
-
-### Web Development Best Practices
-- **MVC Pattern**: Clean separation of concerns in ASP.NET Core
-- **Entity Framework**: Modern data access with code-first approach
-- **Responsive Design**: Mobile-friendly interface using Bootstrap
-- **RESTful APIs**: Clean controller design for CRUD operations
+### ProjectEstimator Extensions
+- Integrate Monte Carlo simulation
+- Add resource management features
+- Implement team collaboration tools
+- Create advanced reporting and analytics
 
 ---
 
-## Extension Exercises
-
-### Beginner Level
-1. **Add task status tracking** (Not Started, In Progress, Completed, Blocked)
-2. **Implement task filtering** by status, priority, or assignee
-3. **Add basic validation** for task dates and estimates
-
-### Intermediate Level
-4. **Resource assignment** - assign team members to tasks
-5. **Workload visualization** - show resource utilization over time
-6. **API endpoints** - create REST API for external integration
-
-### Advanced Level
-7. **Monte Carlo simulation** for project completion probability
-8. **Real-time updates** using SignalR for collaborative editing
-9. **Export functionality** - generate PDF reports or Excel files
-
----
-
-## Demo Application Structure
-
-The application is located in the `demos/ProjectEstimator/` directory within this repository and includes:
-
-### Key Files
-- `Program.cs` - Application entry point and configuration
-- `Models/ProjectTask.cs` - Task entity with three-point estimation
-- `Models/Project.cs` - Project entity with task collections
-- `Controllers/TasksController.cs` - CRUD operations for tasks
-- `Services/EstimationService.cs` - Three-point estimation calculations
-- `Services/MermaidService.cs` - Mermaid chart generation logic
-- `Views/Tasks/` - Razor views for task management
-- `wwwroot/js/mermaid-viewer.js` - Client-side Mermaid rendering
-
-### Sample Data
-The application includes sample project data to demonstrate:
-- Tasks with dependencies (Requirements → Design → Development → Testing)
-- Three-point estimates for each task
-- Generated Mermaid Gantt chart showing timeline and dependencies
-- Critical path highlighting
-
----
-
-*This demo application illustrates practical application of estimation techniques in a real software project, providing hands-on experience with three-point estimation, critical path analysis, and project scheduling.*
+*These demos provide practical, hands-on experience that complements the theoretical concepts covered in the course modules. Each demo is designed to be both educational and extensible, allowing you to explore estimation concepts in depth.*
