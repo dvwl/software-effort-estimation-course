@@ -53,6 +53,7 @@ You're estimating a **Document Management System** for a law firm.
 Identify and classify the main functions:
 
 #### External Inputs (EI) - Users entering data
+
 | Function | Complexity | Weight | Count | Total FP |
 |----------|------------|--------|-------|----------|
 | Document Upload | Average | 4 | 1 | 4 |
@@ -61,6 +62,7 @@ Identify and classify the main functions:
 | **EI Subtotal** | | | | **13** |
 
 #### External Outputs (EO) - Reports and displays
+
 | Function | Complexity | Weight | Count | Total FP |
 |----------|------------|--------|-------|----------|
 | Usage Reports | Average | 5 | 1 | |
@@ -68,6 +70,7 @@ Identify and classify the main functions:
 | **EO Subtotal** | | | | **___** |
 
 #### External Inquiries (EQ) - Search functions
+
 | Function | Complexity | Weight | Count | Total FP |
 |----------|------------|--------|-------|----------|
 | Document Search | Average | 4 | 1 | |
@@ -75,6 +78,7 @@ Identify and classify the main functions:
 | **EQ Subtotal** | | | | **___** |
 
 #### Internal Files (ILF) - Data stored by system
+
 | Function | Complexity | Weight | Count | Total FP |
 |----------|------------|--------|-------|----------|
 | Document Repository | Complex | 15 | 1 | |
@@ -82,6 +86,7 @@ Identify and classify the main functions:
 | **ILF Subtotal** | | | | **___** |
 
 #### External Files (EIF) - Data from other systems
+
 | Function | Complexity | Weight | Count | Total FP |
 |----------|------------|--------|-------|----------|
 | Email System | Simple | 5 | 1 | |
@@ -108,6 +113,7 @@ Using productivity rate of **12 FP per person-month** for web applications:
 Use historical project data to estimate a **Mobile Banking App**.
 
 **Historical Projects:**
+
 | Project | Type | Size (KLOC) | Team | Duration | Effort (PM) |
 |---------|------|-------------|------|----------|-------------|
 | **Web Banking** | Financial | 45 | 6 | 10 months | 48 |
@@ -139,6 +145,7 @@ Rate similarity to new project (1-10 scale):
 **Direct scaling**: _____ PM × (40 KLOC / _____ KLOC) = _____ PM
 
 #### Method 2: Weighted Average (Top 3)
+
 | Project | Weight | Historical PM | Size Ratio | Adjusted PM |
 |---------|--------|---------------|------------|-------------|
 | 1st: _____ | ___/10 | _____ | 40/_____ | _____ |
